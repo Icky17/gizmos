@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url('https://fonts.cdnfonts.com/css/04b03');
+@import url("https://db.onlinewebfonts.com/c/4f9ce8b07e7cdcee83700b0956e242f6?family=Pixel+Maz+Regular"); 
+
+body {
+    padding: 25px;
+    background-color: #d9d7d6;
+    color: black;
+    font-size: 25px;
+}
+  
+.dark-mode {
+    background-color: #061115;
+    color: white;
+}
+
+.navbar {
+  background-color: #162026;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Pixel Maz Regular", sans-serif;
+  font-size: 40px;
+  height: 60px;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #d9d7d6;
+}
+
+.box-landscape {
+  position: absolute;
+  top: 13%;
+  left: 6%;
+  padding: 20px;
+  background-color: #0a1419;
+  height: 300px;
+  width: 700px;
+  box-shadow: -15px 15px 20px #000000;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-img2 {
+  height: 300px;
+  width: 300px;
+}
+
+.links {
+  height: 264px;
+  width: 300px;
+  margin: 8px 0 0 50px;
+  padding: 10px 20px;
+  font-family: "Pixel Maz Regular", sans-serif;
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: 100;
+  border-color: #162026;
+  border-style: solid;
+  border-width: 2px;
+}
+
+h4 {
+  margin: 3px;
+  font-weight: 300;
+}
+
+a:hover {
+  color: #6791c9;
+}
+
+a {
+  text-decoration: none;
+  color: #d9d7d6;
+}
+
+.wrapper {
+  background-color: #162026;
+  position: relative;
+  height: 300px;
+  width: 700px;
+  margin: 200px auto;
+  box-shadow: -10px -10px 30px;
+}
