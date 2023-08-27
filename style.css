@@ -2,6 +2,17 @@
 @import url('https://fonts.cdnfonts.com/css/04b03');
 @import url("https://db.onlinewebfonts.com/c/4f9ce8b07e7cdcee83700b0956e242f6?family=Pixel+Maz+Regular"); 
 
+/* Static objects in website */
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  margin: 20px 0 0 0;
+}
+
+/* Dark mode styles */
+
 body {
     padding: 25px;
     background-color: #d9d7d6;
@@ -23,11 +34,6 @@ body {
   height: 60px;
   align-items: center;
   padding: 10px;
-}
-
-.logo img {
-  height: 50px;
-  width: 50px;
 }
 
 .nav-links {
@@ -91,6 +97,12 @@ a {
   color: #d9d7d6;
 }
 
+/* Round Button */
+.dark-light-button {
+  border-radius: 50%; /* Make the button round */
+  padding: 10px 20px; /* Adjust padding to your preference */
+}
+
 .wrapper {
   background-color: #162026;
   position: relative;
@@ -98,4 +110,84 @@ a {
   width: 700px;
   margin: 200px auto;
   box-shadow: -10px -10px 30px;
+}
+
+.default-box {
+  border: 6px solid #00A4BD;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+/* Boxes Showcases */
+
+.title-section {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #e3e3e3;
+  font-family: "Pixel Maz Regular", sans-serif;
+  font-size: 200px;
+  text-shadow: 0 0 10px black;
+  font-weight: 600;
+  margin: 0 50px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.container {
+  display: grid;
+  margin: 0 300px;
+}
+
+.container__box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 30px;
+  margin: 0 300px;
+}
+
+.container .container__box .box {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px #333;
+  text-align: center;
+  padding: 100px 150px; /* Adjust padding to make the boxes bigger */
+}
+
+.container__heading {
+  text-align: center;
+  padding-bottom: 15px;
+  color: #e3e3e3;
+  text-shadow: 0 0 10px black;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.container .container__box .box h3 {
+  color: #444;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.container .container__box .box p {
+  font-size: 14px;
+  font-weight: 100;
+  color: #555;
+}
+
+.container .container__box .box a {
+  border-radius: 4px;
+  background: #444;
+  color: white;
+}
+
+.container .container__box .box a:hover {
+  background: #908080;
 }
