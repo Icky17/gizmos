@@ -137,8 +137,18 @@ a {
 }
 
 img {
-  width: 60px;
-  height: 60px;
+  width: 110px;
+  height: 110px;
+}
+
+.box {
+  font-family: "Pixel Maz Regular", sans-serif;
+  font-size: 60px;
+}
+
+.box__text {
+  font-family: "Pixel Maz Regular", sans-serif;
+  font-size: 60px;
 }
 
 .container {
